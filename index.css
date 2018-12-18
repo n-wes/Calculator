@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #15283e;
+}
+
+.container-border {
+  margin: 100px auto;
+  height: 600px;
+  width: 700px;
+  border: 5px solid black;
+  border-radius: 40px;
+  background: white;
+  position: relative;
+}
+
+.container {
+  margin: 5px auto;
+  height: 98%;
+  width: 98%;
+  border: 5px solid black;
+  border-radius: 30px;
+  background: #2e3027;
+}
+
+.container > textarea {
+  display: block;
+  margin: 20px auto;
+  height: 65px;
+  width: 80%;
+  border: 3px solid black;
+  border-radius: inherit;
+  background: white;
+  font-size: 45px;
+}
